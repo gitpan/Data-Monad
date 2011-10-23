@@ -20,9 +20,10 @@ no_index:
     - xt
 requires:
   AnyEvent: 0
+  parent: 0
 resources:
   bugtracker: https://github.com/hiratara/p5-Data-Monad/issues
   homepage: https://github.com/hiratara/p5-Data-Monad
   license: http://dev.perl.org/licenses/
   repository: origin
-version: 0.01
+version: 0.02
