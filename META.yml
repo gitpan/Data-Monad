@@ -1,9 +1,10 @@
 ---
-abstract: 'A implementation of monads for Perl'
+abstract: 'An implementation of monads for Perl'
 author:
   - 'hiratara <hiratara {at} cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
+  Test::More: 0.94
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
@@ -19,11 +20,11 @@ no_index:
     - t
     - xt
 requires:
-  AnyEvent: 0
   parent: 0
+  perl: 5.12.0
 resources:
   bugtracker: https://github.com/hiratara/p5-Data-Monad/issues
   homepage: https://github.com/hiratara/p5-Data-Monad
   license: http://dev.perl.org/licenses/
-  repository: origin
-version: 0.02
+  repository: https://github.com/hiratara/p5-Data-Monad.git
+version: 0.03
