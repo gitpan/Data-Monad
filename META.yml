@@ -27,4 +27,4 @@ resources:
   homepage: https://github.com/hiratara/p5-Data-Monad
   license: http://dev.perl.org/licenses/
   repository: https://github.com/hiratara/p5-Data-Monad.git
-version: 0.03
+version: 0.04
