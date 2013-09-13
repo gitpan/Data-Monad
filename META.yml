@@ -5,6 +5,7 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.59
   Test::More: 0.94
+  Test::Requires: 0
 configure_requires:
   Module::Build::Tiny: 0.026
 dynamic_config: 0
@@ -29,4 +30,4 @@ resources:
   bugtracker: https://github.com/hiratara/p5-Data-Monad/issues
   homepage: https://github.com/hiratara/p5-Data-Monad
   repository: https://github.com/hiratara/p5-Data-Monad.git
-version: 0.05
+version: 0.06
