@@ -3,17 +3,18 @@ abstract: 'An implementation of monads for Perl'
 author:
   - 'hiratara <hiratara {at} cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.59
-  Test::More: 0.94
-  Test::Requires: 0
+  ExtUtils::MakeMaker: '6.59'
+  Test::More: '0.94'
+  Test::Requires: '0'
+  Test::Warnings: '0'
 configure_requires:
-  Module::Build::Tiny: 0.026
+  Module::Build::Tiny: '0.035'
 dynamic_config: 0
-generated_by: 'Dist::Milla version v1.0.4, Dist::Zilla version 4.300037, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Dist::Milla version v1.0.4, Dist::Zilla version 5.012, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Data-Monad
 no_index:
   directory:
@@ -24,10 +25,15 @@ no_index:
     - eg
     - examples
 requires:
-  parent: 0
-  perl: 5.012
+  parent: '0'
+  perl: '5.012'
 resources:
   bugtracker: https://github.com/hiratara/p5-Data-Monad/issues
   homepage: https://github.com/hiratara/p5-Data-Monad
   repository: https://github.com/hiratara/p5-Data-Monad.git
-version: 0.06
+version: '0.07'
+x_contributors:
+  - 'Masahiro Honma <hira.tara@gmail.com>'
+  - 'Neil Bowers <neil@bowers.com>'
+  - 'Nick Booker <NMBooker@gmail.com>'
+  - 'hiratara <hiratara@cpan.org>'
